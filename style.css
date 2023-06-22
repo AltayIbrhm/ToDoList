@@ -1,0 +1,88 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+
+}
+
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    text-align:  center;
+}
+
+
+#task-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+button[type="submit"]{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  
+}
+
+.task-columns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.column{
+    flex-basis: 40%;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+h2{
+    margin-top: 0;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: #e6e6e6;
+    border-radius: 4px;
+  }
+  
+  li.completed {
+    background-color: #a7d7a7;
+    text-decoration: line-through;
+  }
+  
+  li button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+  }
+
+  .task-item {
+    /* Other styles... */
+
+    /* Add some space on the right of the task item */
+    margin-right: 10px;
+}
+
+.delete-btn {
+    /* Other styles... */
+
+    /* Add some space on the left of the delete button */
+    margin-left: 10px;
+}
